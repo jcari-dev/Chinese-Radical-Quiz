@@ -1,0 +1,1551 @@
+﻿{
+    "data": [
+        {
+            "Radical No.": "1",
+            "Radical": "一",
+            "English": "one",
+            "Pinyin": "y&#x12b;",
+            "Stroke Count": "1"
+        },
+        {
+            "Radical No.": "2",
+            "Radical": "丨",
+            "English": "line",
+            "Pinyin": "sh&#xf9;",
+            "Stroke Count": "1"
+        },
+        {
+            "Radical No.": "3",
+            "Radical": "丶",
+            "English": "dot",
+            "Pinyin": "di&#x1ce;n",
+            "Stroke Count": "1"
+        },
+        {
+            "Radical No.": "4",
+            "Radical": "丿",
+            "English": "slash",
+            "Pinyin": "pi&#x11b;",
+            "Stroke Count": "1",
+            "Variant(Simplified)": "乀 乁"
+        },
+        {
+            "Radical No.": "5",
+            "Radical": "乙",
+            "English": "second",
+            "Pinyin": "y&#x1d0;",
+            "Stroke Count": "1",
+            "Variant(Simplified)": "乚 乛"
+        },
+        {
+            "Radical No.": "6",
+            "Radical": "亅",
+            "English": "hook",
+            "Pinyin": "g&#x14d;u",
+            "Stroke Count": "1"
+        },
+        {
+            "Radical No.": "7",
+            "Radical": "二",
+            "English": "two",
+            "Pinyin": "&#xe8;r",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "8",
+            "Radical": "亠",
+            "English": "lid",
+            "Pinyin": "t&#xf3;u",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "9",
+            "Radical": "人",
+            "English": "person",
+            "Pinyin": "r&#xe9;n",
+            "Stroke Count": "2",
+            "Variant(Simplified)": "亻"
+        },
+        {
+            "Radical No.": "10",
+            "Radical": "儿",
+            "English": "legs",
+            "Pinyin": "&#xe9;r",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "11",
+            "Radical": "入",
+            "English": "enter",
+            "Pinyin": "r&#xf9;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "12",
+            "Radical": "八",
+            "English": "eight",
+            "Pinyin": "b&#257;",
+            "Stroke Count": "2",
+            "Variant(Simplified)": "丷"
+        },
+        {
+            "Radical No.": "13",
+            "Radical": "冂",
+            "English": "down box",
+            "Pinyin": "ji&#x1d2;ng",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "14",
+            "Radical": "冖",
+            "English": "cover",
+            "Pinyin": "m&#xec;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "15",
+            "Radical": "冫",
+            "English": "ice",
+            "Pinyin": "b&#x12b;ng",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "16",
+            "Radical": "几",
+            "English": "table",
+            "Pinyin": "j&#x12b;, j&#x1d0;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "17",
+            "Radical": "凵",
+            "English": "open box",
+            "Pinyin": "q&#x1d4;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "18",
+            "Radical": "刀",
+            "English": "knife",
+            "Pinyin": "d&#257;o",
+            "Stroke Count": "2",
+            "Variant(Simplified)": "刂"
+        },
+        {
+            "Radical No.": "19",
+            "Radical": "力",
+            "English": "power",
+            "Pinyin": "l&#xec;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "20",
+            "Radical": "勹",
+            "English": "wrap",
+            "Pinyin": "b&#257;o",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "21",
+            "Radical": "匕",
+            "English": "ladle",
+            "Pinyin": "b&#x1d0;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "22",
+            "Radical": "匚",
+            "English": "right open box",
+            "Pinyin": "f&#257;ng",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "23",
+            "Radical": "匸",
+            "English": "hiding enclosure",
+            "Pinyin": "x&#x1d0;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "24",
+            "Radical": "十",
+            "English": "ten",
+            "Pinyin": "sh&#xed;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "25",
+            "Radical": "卜",
+            "English": "divination",
+            "Pinyin": "b&#x1d4;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "26",
+            "Radical": "卩",
+            "English": "seal",
+            "Pinyin": "ji&#xe9;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "27",
+            "Radical": "厂",
+            "English": "cliff",
+            "Pinyin": "h&#xe0;n",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "28",
+            "Radical": "厶",
+            "English": "private",
+            "Pinyin": "s&#x12b;",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "29",
+            "Radical": "又",
+            "English": "again",
+            "Pinyin": "y&#xf2;u",
+            "Stroke Count": "2"
+        },
+        {
+            "Radical No.": "30",
+            "Radical": "口",
+            "English": "mouth",
+            "Pinyin": "k&#x1d2;u",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "31",
+            "Radical": "囗",
+            "English": "enclosure",
+            "Pinyin": "w&#xe9;i",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "32",
+            "Radical": "土",
+            "English": "earth",
+            "Pinyin": "t&#x1d4;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "33",
+            "Radical": "士",
+            "English": "scholar",
+            "Pinyin": "sh&#xec;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "34",
+            "Radical": "夂",
+            "English": "go",
+            "Pinyin": "zh&#x12b;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "35",
+            "Radical": "夊",
+            "English": "go slowly",
+            "Pinyin": "su&#x12b;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "36",
+            "Radical": "夕",
+            "English": "night",
+            "Pinyin": "x&#x12b;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "37",
+            "Radical": "大",
+            "English": "big",
+            "Pinyin": "d&#xe0;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "38",
+            "Radical": "女",
+            "English": "woman",
+            "Pinyin": "n&#x1da;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "39",
+            "Radical": "子",
+            "English": "child",
+            "Pinyin": "z&#x1d0;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "40",
+            "Radical": "宀",
+            "English": "roof",
+            "Pinyin": "mián",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "41",
+            "Radical": "寸",
+            "English": "inch",
+            "Pinyin": "c&#xf9;n",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "42",
+            "Radical": "小",
+            "English": "small",
+            "Pinyin": "xi&#x1ce;o",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "43",
+            "Radical": "尢",
+            "English": "lame",
+            "Pinyin": "y&#xf3;u",
+            "Stroke Count": "3",
+            "Variant(Simplified)": "尣"
+        },
+        {
+            "Radical No.": "44",
+            "Radical": "尸",
+            "English": "corpse",
+            "Pinyin": "sh&#x12b;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "45",
+            "Radical": "屮",
+            "English": "sprout",
+            "Pinyin": "ch&#xe8;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "46",
+            "Radical": "山",
+            "English": "mountain",
+            "Pinyin": "sh&#257;n",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "47",
+            "Radical": "川",
+            "English": "river",
+            "Pinyin": "chu&#x101;n",
+            "Stroke Count": "3",
+            "Variant(Simplified)": "巛 巜"
+        },
+        {
+            "Radical No.": "48",
+            "Radical": "工",
+            "English": "work",
+            "Pinyin": "g&#x14d;ng",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "49",
+            "Radical": "己",
+            "English": "oneself",
+            "Pinyin": "j&#x1d0;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "50",
+            "Radical": "巾",
+            "English": "towel",
+            "Pinyin": "j&#x12b;n",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "51",
+            "Radical": "干",
+            "English": "dry",
+            "Pinyin": "g&#257;n",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "52",
+            "Radical": "幺",
+            "English": "thread",
+            "Pinyin": "y&#257;o",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "53",
+            "Radical": "广",
+            "English": "shelter",
+            "Pinyin": "gu&#x1ce;ng",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "54",
+            "Radical": "廴",
+            "English": "stride",
+            "Pinyin": "y&#x1d0;n",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "55",
+            "Radical": "廾",
+            "English": "hands joined",
+            "Pinyin": "g&#x1d2;ng",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "56",
+            "Radical": "弋",
+            "English": "shoot with a bow",
+            "Pinyin": "y&#xec;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "57",
+            "Radical": "弓",
+            "English": "bow",
+            "Pinyin": "g&#x14d;ng",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "58",
+            "Radical": "彐",
+            "English": "snout",
+            "Pinyin": "j&#xec;",
+            "Stroke Count": "3",
+            "Variant(Simplified)": "彑"
+        },
+        {
+            "Radical No.": "59",
+            "Radical": "彡",
+            "English": "hair",
+            "Pinyin": "sh&#257;n",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "60",
+            "Radical": "彳",
+            "English": "step",
+            "Pinyin": "ch&#xec#xec;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "61",
+            "Radical": "心",
+            "English": "heart",
+            "Pinyin": "x&#x12b;n",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "忄"
+        },
+        {
+            "Radical No.": "62",
+            "Radical": "戈",
+            "English": "spear",
+            "Pinyin": "g&#x113;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "63",
+            "Radical": "户",
+            "English": "door",
+            "Pinyin": "h&#xf9;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "64",
+            "Radical": "手",
+            "English": "hand",
+            "Pinyin": "sh&#x1d2;u",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "扌"
+        },
+        {
+            "Radical No.": "65",
+            "Radical": "支",
+            "English": "branch",
+            "Pinyin": "zh&#x12b;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "66",
+            "Radical": "攴",
+            "English": "rap",
+            "Pinyin": "p&#x16b;",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "攵"
+        },
+        {
+            "Radical No.": "67",
+            "Radical": "文",
+            "English": "script",
+            "Pinyin": "w&#xe9;n",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "68",
+            "Radical": "斗",
+            "English": "dipper",
+            "Pinyin": "d&#x1d2;u",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "69",
+            "Radical": "斤",
+            "English": "axe",
+            "Pinyin": "j&#x12b;n",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "70",
+            "Radical": "方",
+            "English": "square",
+            "Pinyin": "f&#257;ng",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "71",
+            "Radical": "无",
+            "English": "not",
+            "Pinyin": "w&#xfa;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "72",
+            "Radical": "日",
+            "English": "sun",
+            "Pinyin": "r&#xec;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "73",
+            "Radical": "曰",
+            "English": "say",
+            "Pinyin": "yu&#x113;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "74",
+            "Radical": "月",
+            "English": "moon",
+            "Pinyin": "yu&#xe8;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "75",
+            "Radical": "木",
+            "English": "tree",
+            "Pinyin": "m&#xf9;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "76",
+            "Radical": "欠",
+            "English": "lack",
+            "Pinyin": "qi&#xe0;n",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "77",
+            "Radical": "止",
+            "English": "stop",
+            "Pinyin": "zh&#x1d0;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "78",
+            "Radical": "歹",
+            "English": "death",
+            "Pinyin": "d&#x1ce;i",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "79",
+            "Radical": "殳",
+            "English": "weapon",
+            "Pinyin": "sh&#x16b;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "80",
+            "Radical": "毋",
+            "English": "mother",
+            "Pinyin": "m&#x1d4;",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "母"
+        },
+        {
+            "Radical No.": "81",
+            "Radical": "比",
+            "English": "compare",
+            "Pinyin": "b&#x1d0;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "82",
+            "Radical": "毛",
+            "English": "fur",
+            "Pinyin": "m&#xe1;o",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "83",
+            "Radical": "氏",
+            "English": "clan",
+            "Pinyin": "sh&#xec;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "84",
+            "Radical": "气",
+            "English": "steam",
+            "Pinyin": "q&#xec;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "85",
+            "Radical": "水",
+            "English": "water",
+            "Pinyin": "shu&#x1d0;",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "氵"
+        },
+        {
+            "Radical No.": "86",
+            "Radical": "火",
+            "English": "fire",
+            "Pinyin": "hu&#x1d2;",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "灬"
+        },
+        {
+            "Radical No.": "87",
+            "Radical": "爪",
+            "English": "claw",
+            "Pinyin": "zh&#x1ce;o",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "爫"
+        },
+        {
+            "Radical No.": "88",
+            "Radical": "父",
+            "English": "father",
+            "Pinyin": "f&#xf9;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "89",
+            "Radical": "爻",
+            "English": "lines on a trigram",
+            "Pinyin": "y&#xe1;o",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "90",
+            "Radical": "爿",
+            "English": "half of a tree trunk",
+            "Pinyin": "qi&#xe1;ng",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "91",
+            "Radical": "片",
+            "English": "slice",
+            "Pinyin": "pi&#xe0;n",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "92",
+            "Radical": "牙",
+            "English": "tooth",
+            "Pinyin": "y&#xe1;",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "93",
+            "Radical": "牛",
+            "English": "cow",
+            "Pinyin": "ni&#xfa;",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "牜"
+        },
+        {
+            "Radical No.": "94",
+            "Radical": "犬",
+            "English": "dog",
+            "Pinyin": "qu&#x1ce;n",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "犭"
+        },
+        {
+            "Radical No.": "95",
+            "Radical": "玄",
+            "English": "profound",
+            "Pinyin": "xu&#xe1;n",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "96",
+            "Radical": "玉",
+            "English": "jade",
+            "Pinyin": "y&#xf9;",
+            "Stroke Count": "5",
+            "Variant(Simplified)": "王"
+        },
+        {
+            "Radical No.": "97",
+            "Radical": "瓜",
+            "English": "melon",
+            "Pinyin": "gu&#x101;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "98",
+            "Radical": "瓦",
+            "English": "tile",
+            "Pinyin": "w&#x1ce;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "99",
+            "Radical": "甘",
+            "English": "sweet",
+            "Pinyin": "g&#257;n",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "100",
+            "Radical": "生",
+            "English": "life",
+            "Pinyin": "sh&#x113;ng",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "101",
+            "Radical": "用",
+            "English": "use",
+            "Pinyin": "y&#xf2;ng",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "102",
+            "Radical": "田",
+            "English": "field",
+            "Pinyin": "ti&#xe1;n",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "103",
+            "Radical": "疋",
+            "English": "cloth",
+            "Pinyin": "p&#x1d0;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "104",
+            "Radical": "疒",
+            "English": "ill",
+            "Pinyin": "b&#xec;ng",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "105",
+            "Radical": "癶",
+            "English": "foot steps",
+            "Pinyin": "b&#x14d;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "106",
+            "Radical": "白",
+            "English": "white",
+            "Pinyin": "b&#xe1;i",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "107",
+            "Radical": "皮",
+            "English": "skin",
+            "Pinyin": "p&#xed;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "108",
+            "Radical": "皿",
+            "English": "dish",
+            "Pinyin": "m&#x1d0;n",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "109",
+            "Radical": "目",
+            "English": "eye",
+            "Pinyin": "m&#xf9;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "110",
+            "Radical": "矛",
+            "English": "spear",
+            "Pinyin": "m&#xe1;o",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "111",
+            "Radical": "矢",
+            "English": "arrow",
+            "Pinyin": "sh&#x1d0;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "112",
+            "Radical": "石",
+            "English": "stone",
+            "Pinyin": "sh&#xed;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "113",
+            "Radical": "示",
+            "English": "spirit",
+            "Pinyin": "sh&#xec;",
+            "Stroke Count": "5",
+            "Variant(Simplified)": "礻"
+        },
+        {
+            "Radical No.": "114",
+            "Radical": "禸",
+            "English": "track",
+            "Pinyin": "r&#xf3;u",
+            "Stroke Count": "4"
+        },
+        {
+            "Radical No.": "115",
+            "Radical": "禾",
+            "English": "grain",
+            "Pinyin": "h&#xe9;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "116",
+            "Radical": "穴",
+            "English": "cave",
+            "Pinyin": "xu&#xe8;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "117",
+            "Radical": "立",
+            "English": "stand",
+            "Pinyin": "l&#xec;",
+            "Stroke Count": "5"
+        },
+        {
+            "Radical No.": "118",
+            "Radical": "竹",
+            "English": "bamboo",
+            "Pinyin": "zh&#xfa;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "119",
+            "Radical": "米",
+            "English": "rice",
+            "Pinyin": "m&#x1d0;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "120",
+            "Radical": "糸",
+            "English": "silk",
+            "Pinyin": "s&#x12b;",
+            "Stroke Count": "6",
+            "Variant(Simplified)": "(纟)"
+        },
+        {
+            "Radical No.": "121",
+            "Radical": "缶",
+            "English": "jar",
+            "Pinyin": "f&#x1d2;u",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "122",
+            "Radical": "网",
+            "English": "net",
+            "Pinyin": "w&#x1ce;ng",
+            "Stroke Count": "6",
+            "Variant(Simplified)": "罒"
+        },
+        {
+            "Radical No.": "123",
+            "Radical": "羊",
+            "English": "sheep",
+            "Pinyin": "y&#xe1;ng",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "124",
+            "Radical": "羽",
+            "English": "feather",
+            "Pinyin": "y&#x1d4;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "125",
+            "Radical": "老",
+            "English": "old",
+            "Pinyin": "l&#x1ce;o",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "126",
+            "Radical": "而",
+            "English": "and",
+            "Pinyin": "&#xe9;r",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "127",
+            "Radical": "耒",
+            "English": "plow",
+            "Pinyin": "l&#x11b;i",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "128",
+            "Radical": "耳",
+            "English": "ear",
+            "Pinyin": "&#x11b;r",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "129",
+            "Radical": "聿",
+            "English": "brush",
+            "Pinyin": "y&#xf9;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "130",
+            "Radical": "肉",
+            "English": "meat",
+            "Pinyin": "r&#xf2;u",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "131",
+            "Radical": "臣",
+            "English": "minister",
+            "Pinyin": "ch&#xe9;n",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "132",
+            "Radical": "自",
+            "English": "oneself",
+            "Pinyin": "z&#xec;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "133",
+            "Radical": "至",
+            "English": "arrive",
+            "Pinyin": "zh&#xec;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "134",
+            "Radical": "臼",
+            "English": "mortar",
+            "Pinyin": "ji&#xf9;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "135",
+            "Radical": "舌",
+            "English": "tongue",
+            "Pinyin": "sh&#xe9;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "136",
+            "Radical": "舛",
+            "English": "contrary",
+            "Pinyin": "chu&#x1ce;n",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "137",
+            "Radical": "舟",
+            "English": "boat",
+            "Pinyin": "zh&#x14d;u",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "138",
+            "Radical": "艮",
+            "English": "mountain",
+            "Pinyin": "g&#xe8;n",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "139",
+            "Radical": "色",
+            "English": "color",
+            "Pinyin": "s&#xe8;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "140",
+            "Radical": "艸",
+            "English": "grass",
+            "Pinyin": "c&#x1ce;o",
+            "Stroke Count": "6",
+            "Variant(Simplified)": "(艹)"
+        },
+        {
+            "Radical No.": "141",
+            "Radical": "虍",
+            "English": "tiger",
+            "Pinyin": "h&#x1d4;",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "142",
+            "Radical": "虫",
+            "English": "insect",
+            "Pinyin": "ch&#xf3;ng",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "143",
+            "Radical": "血",
+            "English": "blood",
+            "Pinyin": "xuè",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "144",
+            "Radical": "行",
+            "English": "walk",
+            "Pinyin": "x&#xed;ng",
+            "Stroke Count": "6"
+        },
+        {
+            "Radical No.": "145",
+            "Radical": "衣",
+            "English": "clothes",
+            "Pinyin": "y&#x12b;",
+            "Stroke Count": "6",
+            "Variant(Simplified)": "衤"
+        },
+        {
+            "Radical No.": "146",
+            "Radical": "西",
+            "English": "west",
+            "Pinyin": "x&#x12b;",
+            "Stroke Count": "6",
+            "Variant(Simplified)": "覀"
+        },
+        {
+            "Radical No.": "147",
+            "Radical": "見",
+            "English": "see",
+            "Pinyin": "ji&#xe0;n",
+            "Stroke Count": "7",
+            "Variant(Simplified)": "(见)"
+        },
+        {
+            "Radical No.": "148",
+            "Radical": "角",
+            "English": "horn",
+            "Pinyin": "ji&#x1ce;o",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "149",
+            "Radical": "言",
+            "English": "speech",
+            "Pinyin": "y&#xe1;n",
+            "Stroke Count": "7",
+            "Variant(Simplified)": "(讠)"
+        },
+        {
+            "Radical No.": "150",
+            "Radical": "谷",
+            "English": "valley",
+            "Pinyin": "g&#x1d4;",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "151",
+            "Radical": "豆",
+            "English": "bean",
+            "Pinyin": "d&#xf2;u",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "152",
+            "Radical": "豕",
+            "English": "pig",
+            "Pinyin": "sh&#x1d0;",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "153",
+            "Radical": "豸",
+            "English": "badger",
+            "Pinyin": "zh&#xec;",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "154",
+            "Radical": "貝",
+            "English": "shell",
+            "Pinyin": "b&#xe8;i",
+            "Stroke Count": "4",
+            "Variant(Simplified)": "(贝)"
+        },
+        {
+            "Radical No.": "155",
+            "Radical": "赤",
+            "English": "red",
+            "Pinyin": "ch&#xec;",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "156",
+            "Radical": "走",
+            "English": "walk",
+            "Pinyin": "z&#x1d2;u",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "157",
+            "Radical": "足",
+            "English": "foot",
+            "Pinyin": "z&#xfa;",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "158",
+            "Radical": "身",
+            "English": "body",
+            "Pinyin": "sh&#x113;n",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "159",
+            "Radical": "車",
+            "English": "cart",
+            "Pinyin": "ch&#x113;",
+            "Stroke Count": "7",
+            "Variant(Simplified)": "(车)"
+        },
+        {
+            "Radical No.": "160",
+            "Radical": "辛",
+            "English": "bitter",
+            "Pinyin": "x&#x12b;n",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "161",
+            "Radical": "辰",
+            "English": "morning",
+            "Pinyin": "ch&#xe9;n",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "162",
+            "Radical": "辶",
+            "English": "walk",
+            "Pinyin": "chu&#xf2;",
+            "Stroke Count": "3"
+        },
+        {
+            "Radical No.": "163",
+            "Radical": "邑",
+            "English": "city",
+            "Pinyin": "y&#xec;",
+            "Stroke Count": "7",
+            "Variant(Simplified)": "阝"
+        },
+        {
+            "Radical No.": "164",
+            "Radical": "酉",
+            "English": "wine",
+            "Pinyin": "y&#x1d2;u",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "165",
+            "Radical": "釆",
+            "English": "distinguish",
+            "Pinyin": "bi&#xe0;n",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "166",
+            "Radical": "里",
+            "English": "village",
+            "Pinyin": "l&#x1d0;",
+            "Stroke Count": "7"
+        },
+        {
+            "Radical No.": "167",
+            "Radical": "金",
+            "English": "metal",
+            "Pinyin": "j&#x12b;n",
+            "Stroke Count": "8",
+            "Variant(Simplified)": "(钅)"
+        },
+        {
+            "Radical No.": "168",
+            "Radical": "長",
+            "English": "long",
+            "Pinyin": "ch&#xe1;ng",
+            "Stroke Count": "8",
+            "Variant(Simplified)": "(长)"
+        },
+        {
+            "Radical No.": "169",
+            "Radical": "門",
+            "English": "gate",
+            "Pinyin": "m&#xe9;n",
+            "Stroke Count": "8",
+            "Variant(Simplified)": "(门)"
+        },
+        {
+            "Radical No.": "170",
+            "Radical": "阜",
+            "English": "mound",
+            "Pinyin": "f&#xf9;",
+            "Stroke Count": "8",
+            "Variant(Simplified)": "阝"
+        },
+        {
+            "Radical No.": "171",
+            "Radical": "隶",
+            "English": "slave",
+            "Pinyin": "l&#xec;",
+            "Stroke Count": "8"
+        },
+        {
+            "Radical No.": "172",
+            "Radical": "隹",
+            "English": "short-tailed bird",
+            "Pinyin": "zhu&#x12b;",
+            "Stroke Count": "8"
+        },
+        {
+            "Radical No.": "173",
+            "Radical": "雨",
+            "English": "rain",
+            "Pinyin": "y&#x1d4;",
+            "Stroke Count": "8"
+        },
+        {
+            "Radical No.": "174",
+            "Radical": "青",
+            "English": "blue",
+            "Pinyin": "q&#x12b;ng",
+            "Stroke Count": "8"
+        },
+        {
+            "Radical No.": "175",
+            "Radical": "非",
+            "English": "wrong",
+            "Pinyin": "f&#x113;i",
+            "Stroke Count": "8"
+        },
+        {
+            "Radical No.": "176",
+            "Radical": "面",
+            "English": "face",
+            "Pinyin": "mi&#xe0;n",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "177",
+            "Radical": "革",
+            "English": "leather",
+            "Pinyin": "g&#xe9;",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "178",
+            "Radical": "韋",
+            "English": "soft leather",
+            "Pinyin": "w&#x11b;i",
+            "Stroke Count": "9",
+            "Variant(Simplified)": "(韦)"
+        },
+        {
+            "Radical No.": "179",
+            "Radical": "韭",
+            "English": "leek",
+            "Pinyin": "ji&#x1d4;",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "180",
+            "Radical": "音",
+            "English": "sound",
+            "Pinyin": "y&#x12b;n",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "181",
+            "Radical": "頁",
+            "English": "page",
+            "Pinyin": "y&#xe8;",
+            "Stroke Count": "9",
+            "Variant(Simplified)": "(页)"
+        },
+        {
+            "Radical No.": "182",
+            "Radical": "風",
+            "English": "wind",
+            "Pinyin": "f&#x113;ng",
+            "Stroke Count": "9",
+            "Variant(Simplified)": "(风)"
+        },
+        {
+            "Radical No.": "183",
+            "Radical": "飛",
+            "English": "fly",
+            "Pinyin": "f&#x113;i",
+            "Stroke Count": "9",
+            "Variant(Simplified)": "(飞)"
+        },
+        {
+            "Radical No.": "184",
+            "Radical": "食",
+            "English": "eat",
+            "Pinyin": "sh&#xed;",
+            "Stroke Count": "9",
+            "Variant(Simplified)": "飠 (饣)"
+        },
+        {
+            "Radical No.": "185",
+            "Radical": "首",
+            "English": "head",
+            "Pinyin": "sh&#x1d2;u",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "186",
+            "Radical": "香",
+            "English": "fragrant",
+            "Pinyin": "xi&#x101;ng",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "187",
+            "Radical": "馬",
+            "English": "horse",
+            "Pinyin": "m&#x1ce;",
+            "Stroke Count": "10",
+            "Variant(Simplified)": "(马)"
+        },
+        {
+            "Radical No.": "188",
+            "Radical": "骨",
+            "English": "bone",
+            "Pinyin": "g&#x1d4;",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "189",
+            "Radical": "高",
+            "English": "high",
+            "Pinyin": "g&#257;o",
+            "Stroke Count": "10"
+        },
+        {
+            "Radical No.": "190",
+            "Radical": "髟",
+            "English": "long hair",
+            "Pinyin": "bi&#x101;o",
+            "Stroke Count": "10"
+        },
+        {
+            "Radical No.": "191",
+            "Radical": "鬥",
+            "English": "fight",
+            "Pinyin": "d&#xf2;u",
+            "Stroke Count": "10",
+            "Variant(Simplified)": "(斗)"
+        },
+        {
+            "Radical No.": "192",
+            "Radical": "鬯",
+            "English": "sacrificial wine",
+            "Pinyin": "ch&#xe0;ng",
+            "Stroke Count": "10"
+        },
+        {
+            "Radical No.": "193",
+            "Radical": "鬲",
+            "English": "cauldron",
+            "Pinyin": "l&#xec;",
+            "Stroke Count": "10"
+        },
+        {
+            "Radical No.": "194",
+            "Radical": "鬼",
+            "English": "ghost",
+            "Pinyin": "gu&#x1d0;",
+            "Stroke Count": "9"
+        },
+        {
+            "Radical No.": "195",
+            "Radical": "魚",
+            "English": "fish",
+            "Pinyin": "y&#xfa;",
+            "Stroke Count": "11",
+            "Variant(Simplified)": "(鱼)"
+        },
+        {
+            "Radical No.": "196",
+            "Radical": "鳥",
+            "English": "bird",
+            "Pinyin": "ni&#x1ce;o",
+            "Stroke Count": "11",
+            "Variant(Simplified)": "(鸟)"
+        },
+        {
+            "Radical No.": "197",
+            "Radical": "鹵",
+            "English": "salty",
+            "Pinyin": "l&#x1d4;",
+            "Stroke Count": "11",
+            "Variant(Simplified)": "(卤)"
+        },
+        {
+            "Radical No.": "198",
+            "Radical": "鹿",
+            "English": "deer",
+            "Pinyin": "l&#xf9;",
+            "Stroke Count": "11"
+        },
+        {
+            "Radical No.": "199",
+            "Radical": "\n麥\n",
+            "English": "wheat",
+            "Pinyin": "m&#xe0;i",
+            "Stroke Count": "11",
+            "Variant(Simplified)": "(麦)"
+        },
+        {
+            "Radical No.": "200",
+            "Radical": "麻",
+            "English": "hemp",
+            "Pinyin": "m&#xe1;",
+            "Stroke Count": "11"
+        },
+        {
+            "Radical No.": "201",
+            "Radical": "黄",
+            "English": "yellow",
+            "Pinyin": "hu&#xe1;ng",
+            "Stroke Count": "11"
+        },
+        {
+            "Radical No.": "202",
+            "Radical": "黍",
+            "English": "millet",
+            "Pinyin": "sh&#x1d4;",
+            "Stroke Count": "12"
+        },
+        {
+            "Radical No.": "203",
+            "Radical": "黑",
+            "English": "black",
+            "Pinyin": "h&#x113;i",
+            "Stroke Count": "12"
+        },
+        {
+            "Radical No.": "204",
+            "Radical": "黹",
+            "English": "embroidery",
+            "Pinyin": "zh&#x1d0;",
+            "Stroke Count": "12"
+        },
+        {
+            "Radical No.": "205",
+            "Radical": "黽",
+            "English": "frog",
+            "Pinyin": "m&#x1d0;n",
+            "Stroke Count": "12",
+            "Variant(Simplified)": "(黾)"
+        },
+        {
+            "Radical No.": "206",
+            "Radical": "鼎",
+            "English": "tripod",
+            "Pinyin": "d&#x1d0;ng",
+            "Stroke Count": "12"
+        },
+        {
+            "Radical No.": "207",
+            "Radical": "鼓",
+            "English": "drum",
+            "Pinyin": "g&#x1d4;",
+            "Stroke Count": "13"
+        },
+        {
+            "Radical No.": "208",
+            "Radical": "鼠",
+            "English": "rat",
+            "Pinyin": "sh&#x1d4;",
+            "Stroke Count": "13"
+        },
+        {
+            "Radical No.": "209",
+            "Radical": "鼻",
+            "English": "nose",
+            "Pinyin": "b&#xed;",
+            "Stroke Count": "14"
+        },
+        {
+            "Radical No.": "210",
+            "Radical": "齊",
+            "English": "even",
+            "Pinyin": "q&#xed;",
+            "Stroke Count": "14",
+            "Variant(Simplified)": "(齐)"
+        },
+        {
+            "Radical No.": "211",
+            "Radical": "齒",
+            "English": "tooth",
+            "Pinyin": "ch&#x1d0;",
+            "Stroke Count": "15",
+            "Variant(Simplified)": "(齿)"
+        },
+        {
+            "Radical No.": "212",
+            "Radical": "龍",
+            "English": "dragon",
+            "Pinyin": "l&#xf3;ng",
+            "Stroke Count": "16",
+            "Variant(Simplified)": "(龙)"
+        },
+        {
+            "Radical No.": "213",
+            "Radical": "龜",
+            "English": "turtle",
+            "Pinyin": "gu&#x12b;",
+            "Stroke Count": "16",
+            "Variant(Simplified)": "(龟)"
+        },
+        {
+            "Radical No.": "214",
+            "Radical": "龠",
+            "English": "flute",
+            "Pinyin": "yu&#xe8;",
+            "Stroke Count": "17"
+        }
+    ]
+}
