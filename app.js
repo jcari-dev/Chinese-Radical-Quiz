@@ -2,7 +2,6 @@ async function populateTables(quizNo) {
 
     const response = await fetch("./data/radicals-data.json");
     const data = await response.json();
-    console.log(data);
 
     let tbodyRadicals = document.getElementById('tbody-radicals');
     let tbodyEnglish = document.getElementById('tbody-english');
@@ -99,7 +98,6 @@ function checkMatch(element) {
             matches = []
 
         }
-        console.log(matches)
         let buttons = document.getElementsByClassName("shadow-sm")
 
         for (let i = 0; i < buttons.length; i++) {
@@ -107,7 +105,6 @@ function checkMatch(element) {
             if(button.style.backgroundColor === "mistyrose"){
                 button.style.backgroundColor = ""
             }
-            console.log(button.style.backgroundColor, button.innerText)
         }
         matches = []
     }
