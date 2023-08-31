@@ -10,8 +10,11 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
   </head>
   <body>
     <div class="d-flex justify-content-center">
@@ -20,78 +23,113 @@
           <a class="nav-link" aria-current="page" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./quiz_1.html">Quiz Lv. 1</a>
+          <a class="nav-link active" aria-current="page" href="./quiz_1.html"
+            >Quiz Lv. 1</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-current="page" href="#">Quiz Lv. 2</a>
+          <a class="nav-link disabled" aria-current="page" href="#"
+            >Quiz Lv. 2</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-current="page" href="#">Quiz Lv. 3</a>
+          <a class="nav-link disabled" aria-current="page" href="#"
+            >Quiz Lv. 3</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-current="page" href="#">Quiz Lv. 4</a>
+          <a class="nav-link disabled" aria-current="page" href="#"
+            >Quiz Lv. 4</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-current="page" href="#">Quiz Lv. 5</a>
+          <a class="nav-link disabled" aria-current="page" href="#"
+            >Quiz Lv. 5</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-current="page" href="#">Quiz Lv. 6</a>
+          <a class="nav-link disabled" aria-current="page" href="#"
+            >Quiz Lv. 6</a
+          >
         </li>
       </ul>
     </div>
     <div class="d-flex justify-content-center m-3">
       <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" role="switch" id="audio-toggle" onchange="handleAudioTracks(this);">
-        <label class="form-check-label" for="audio-toggle">Play Pronunciation</label>
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="audio-toggle"
+          onchange="handleAudioTracks(this);"
+        />
+        <label class="form-check-label" for="audio-toggle"
+          >Play Pronunciation</label
+        >
       </div>
     </div>
     <div class="d-flex justify-content-center m-1">
-
       <div class="form-check m-1">
-        <input class="form-check-input" type="radio" name="audio-track-1-toggle" id="audio-track-1" value="option1" checked disabled onclick="toggleAudioTracks(this);">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="audio-track-1-toggle"
+          id="audio-track-1"
+          value="option1"
+          checked
+          disabled
+          onclick="toggleAudioTracks(this);"
+        />
         <label class="form-check-label" for="audio-track-1">
-          Audio Track 1 <i class="bi bi-question-circle" title="Powered by Tacotron."></i>
+          Audio Track 1
+          <i class="bi bi-question-circle" title="Powered by Tacotron."></i>
         </label>
       </div>
       <div class="form-check m-1">
-        <input class="form-check-input" type="radio" name="audio-track-2-toggle" id="audio-track-2" value="option2" disabled onclick="toggleAudioTracks(this);">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="audio-track-2-toggle"
+          id="audio-track-2"
+          value="option2"
+          disabled
+          onclick="toggleAudioTracks(this);"
+        />
         <label class="form-check-label" for="audio-track-2">
-          Audio Track 2 <i class="bi bi-question-circle" title="Powered by FastSpeech2."></i>
+          Audio Track 2
+          <i class="bi bi-question-circle" title="Powered by FastSpeech2."></i>
         </label>
       </div>
     </div>
     <div class="d-flex justify-content-center m-1">
-
       <div class="mx-5 mt-3">
-        <h4>Score</h4><div class="d-flex justify-content-center"  id="score">0</div>
+        <h4>Score</h4>
+        <div class="d-flex justify-content-center" id="score">0</div>
       </div>
       <div class="mx-5 mt-3">
-        <h4>Tries</h4><div class="d-flex justify-content-center" id="tries">0</div>
+        <h4>Tries</h4>
+        <div class="d-flex justify-content-center" id="tries">0</div>
       </div>
     </div>
     <div class="jumbotron m-5">
-    <div class="container">
+      <div class="container">
         <div class="row">
           <!-- First Table -->
           <div class="col">
             <table class="table table-borderless" id="table-radicals">
-              <tbody id="tbody-radicals">
-
-              </tbody>
+              <tbody id="tbody-radicals"></tbody>
             </table>
           </div>
           <!-- Second Table -->
           <div class="col">
             <table class="table table-borderless" id="table-english">
-              <tbody id="tbody-english">
-              </tbody>
+              <tbody id="tbody-english"></tbody>
             </table>
           </div>
         </div>
+      </div>
     </div>
 
-    </div>
-    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
