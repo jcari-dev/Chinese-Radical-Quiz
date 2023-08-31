@@ -1,3 +1,7 @@
+let matches = []
+let score = 0
+let tries = 0
+
 async function populateTables(quizNo) {
 
     const response = await fetch("./data/radicals-data.json");
@@ -46,13 +50,13 @@ async function populateTables(quizNo) {
             let tdEnglish = document.createElement("td");
             let buttonEnglish = document.createElement("BUTTON");
 
-            buttonRadical.classList.add("btn", "shadow-sm", matchingIdentifierRadical);
+            buttonRadical.classList.add(`${randomQuestionRadical['Radical No.']}`, "btn", "shadow-sm", matchingIdentifierRadical);
             buttonRadical.innerText = randomQuestionRadical.Radical;
-            buttonRadical.setAttribute("onclick", "checkMatch(this)");
+            buttonRadical.setAttribute("onclick", "checkMatch(this); playPronunciation(this);");
 
             buttonEnglish.classList.add("btn", "shadow-sm", matchingIdentifierEnglish);
             buttonEnglish.innerText = randomQuestionEnglish.English;
-            buttonEnglish.setAttribute("onclick", "checkMatch(this)");
+            buttonEnglish.setAttribute("onclick", "checkMatch(this);");
 
             tdRadical.appendChild(buttonRadical);
             rowRadicals.appendChild(tdRadical);
@@ -67,14 +71,13 @@ async function populateTables(quizNo) {
 
 }
 
-let matches = []
 
 function checkMatch(element) {
     if(!matches.includes(element) && element.style.backgroundColor != "gainsboro"){
         matches.push(element)
         element.style.backgroundColor = "MistyRose";
     }
-
+    let scored = false;
     if(matches.length === 2){
 
         let classMatchOne = matches[0].className.split(' ').at(-1)
@@ -83,7 +86,7 @@ function checkMatch(element) {
         let reversedClassMatchOne = classMatchOne.split("").reverse().join("")
         let reversedClassMatchTwo = classMatchTwo.split("").reverse().join("")
 
-        console.log(classMatchOne, classMatchTwo, reversedClassMatchOne, reversedClassMatchTwo)
+        // console.log(classMatchOne, classMatchTwo, reversedClassMatchOne, reversedClassMatchTwo)
 
         if(classMatchOne === reversedClassMatchTwo || classMatchTwo === reversedClassMatchOne){
             if(matches[0] === matches[1]){
@@ -92,6 +95,8 @@ function checkMatch(element) {
   
                 matches[0].style.backgroundColor = "Gainsboro";
                 matches[1].style.backgroundColor = "Gainsboro";
+                scored = true;
+
 
             }
 
@@ -107,6 +112,16 @@ function checkMatch(element) {
             }
         }
         matches = []
+        if(scored){
+            let scoreElement = document.getElementById('score');
+            scored = true;
+            score++;
+            scoreElement.innerHTML = score;
+        } else {
+            let triesElement = document.getElementById('tries');
+            tries++;
+            triesElement.innerHTML = tries;
+        }
     }
 
 
@@ -115,3 +130,44 @@ function checkMatch(element) {
 
 populateTables(1);
 
+function playPronunciation(element){
+    const audioToggle = document.getElementById('audio-toggle');
+    if(audioToggle.checked){
+
+        const audioId = element.className.split(' ')[0];
+        const audioTrack1 = document.getElementById('audio-track-1');
+        let pronunciation;
+        if(audioTrack1.checked){
+            pronunciation = new Audio(`./audio/tacotron/${audioId}.wav`);
+        } else {
+            pronunciation = new Audio(`./audio/fastspeech2/${audioId}.wav`);
+        }
+        pronunciation.play();
+    } 
+}
+
+function handleAudioTracks(element){
+    if(element.checked){
+        let audioTrack1 = document.getElementById('audio-track-1');
+        let audioTrack2 = document.getElementById('audio-track-2');
+        audioTrack1.disabled = false;
+        audioTrack2.disabled = false;
+    }else {
+        let audioTrack1 = document.getElementById('audio-track-1');
+        let audioTrack2 = document.getElementById('audio-track-2');
+        audioTrack1.disabled = true;
+        audioTrack2.disabled = true;
+    }
+
+}
+
+function toggleAudioTracks(element){
+    if(element.id === "audio-track-1"){
+        let audioTrack2 = document.getElementById('audio-track-2');
+        audioTrack2.checked = false;
+    } else if(element.id === "audio-track-2"){
+        let audioTrack1 = document.getElementById('audio-track-1');
+        audioTrack1.checked = false;
+    }
+
+}
