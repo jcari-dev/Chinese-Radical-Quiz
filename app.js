@@ -9,88 +9,99 @@ async function populateTables(quizNo) {
   let tbodyRadicals = document.getElementById("tbody-radicals");
   let tbodyEnglish = document.getElementById("tbody-english");
 
-  if (quizNo === 1) {
-    let questions = data.slice(0, 35);
-    let questionsRadicals = data.slice(0, 35);
-    let questionsEnglish = data.slice(0, 35);
-    let counter = 0;
-    let rowRadicals = document.createElement("tr");
-    let rowEnglish = document.createElement("tr");
-    for (let i = 0; i < questions.length; i++) {
-      let randomIndexRadical = Math.floor(
-        Math.random() * questionsRadicals.length
-      );
-      let randomIndexEnglish = Math.floor(
-        Math.random() * questionsEnglish.length
-      );
+  let quizNoDictionary = {
+    1: [0, 35],
+    2: [35, 70],
+    3: [70, 105],
+    4: [105, 140],
+    5: [140, 175],
+    6: [175, 214],
+  }
 
-      let randomQuestionRadical = questionsRadicals.splice(
-        randomIndexRadical,
-        1
-      )[0];
-      let randomQuestionEnglish = questionsEnglish.splice(
-        randomIndexEnglish,
-        1
-      )[0];
+  let quizDictionary = quizNoDictionary[parseInt(quizNo)]
 
-      let matchingIdentifierRadical = `match_${randomQuestionRadical.English.replace(
-        / /g,
-        "_"
-      )}`;
-      let matchingIdentifierEnglish = `match_${randomQuestionEnglish.English.replace(
-        / /g,
-        "_"
-      )}`;
 
-      matchingIdentifierEnglish = md5(matchingIdentifierEnglish);
-      matchingIdentifierRadical = md5(matchingIdentifierRadical)
-        .split("")
-        .reverse()
-        .join("");
+  let questions = data.slice(quizDictionary[0], quizDictionary[1]);
+  let questionsRadicals = data.slice(quizDictionary[0], quizDictionary[1]);
+  let questionsEnglish = data.slice(quizDictionary[0], quizDictionary[1]);
+  let counter = 0;
+  let rowRadicals = document.createElement("tr");
+  let rowEnglish = document.createElement("tr");
+  for (let i = 0; i < questions.length; i++) {
+    let randomIndexRadical = Math.floor(
+      Math.random() * questionsRadicals.length
+    );
+    let randomIndexEnglish = Math.floor(
+      Math.random() * questionsEnglish.length
+    );
 
-      if (i === 0 || i % 5 === 0) {
-        rowRadicals = document.createElement("tr");
-        tbodyRadicals.appendChild(rowRadicals);
+    let randomQuestionRadical = questionsRadicals.splice(
+      randomIndexRadical,
+      1
+    )[0];
+    let randomQuestionEnglish = questionsEnglish.splice(
+      randomIndexEnglish,
+      1
+    )[0];
 
-        rowEnglish = document.createElement("tr");
-        tbodyEnglish.appendChild(rowEnglish);
-      }
-      let tdRadical = document.createElement("td");
-      let buttonRadical = document.createElement("BUTTON");
+    let matchingIdentifierRadical = `match_${randomQuestionRadical.English.replace(
+      / /g,
+      "_"
+    )}`;
+    let matchingIdentifierEnglish = `match_${randomQuestionEnglish.English.replace(
+      / /g,
+      "_"
+    )}`;
 
-      let tdEnglish = document.createElement("td");
-      let buttonEnglish = document.createElement("BUTTON");
+    matchingIdentifierEnglish = md5(matchingIdentifierEnglish);
+    matchingIdentifierRadical = md5(matchingIdentifierRadical)
+      .split("")
+      .reverse()
+      .join("");
 
-      buttonRadical.classList.add(
-        `${randomQuestionRadical["Radical No."]}`,
-        "btn",
-        "shadow-sm",
-        matchingIdentifierRadical
-      );
-      buttonRadical.innerText = randomQuestionRadical.Radical;
-      buttonRadical.setAttribute(
-        "onclick",
-        "checkMatch(this); playPronunciation(this);"
-      );
+    if (i === 0 || i % 5 === 0) {
+      rowRadicals = document.createElement("tr");
+      tbodyRadicals.appendChild(rowRadicals);
 
-      buttonEnglish.classList.add(
-        "btn",
-        "shadow-sm",
-        matchingIdentifierEnglish
-      );
-      buttonEnglish.innerText = randomQuestionEnglish.English;
-      buttonEnglish.setAttribute("onclick", "checkMatch(this);");
-
-      tdRadical.appendChild(buttonRadical);
-      rowRadicals.appendChild(tdRadical);
-
-      tdEnglish.appendChild(buttonEnglish);
-      rowEnglish.appendChild(tdEnglish);
-
-      counter++;
+      rowEnglish = document.createElement("tr");
+      tbodyEnglish.appendChild(rowEnglish);
     }
+    let tdRadical = document.createElement("td");
+    let buttonRadical = document.createElement("BUTTON");
+
+    let tdEnglish = document.createElement("td");
+    let buttonEnglish = document.createElement("BUTTON");
+
+    buttonRadical.classList.add(
+      `${randomQuestionRadical["Radical No."]}`,
+      "btn",
+      "shadow-sm",
+      matchingIdentifierRadical
+    );
+    buttonRadical.innerText = randomQuestionRadical.Radical;
+    buttonRadical.setAttribute(
+      "onclick",
+      "checkMatch(this); playPronunciation(this);"
+    );
+
+    buttonEnglish.classList.add(
+      "btn",
+      "shadow-sm",
+      matchingIdentifierEnglish
+    );
+    buttonEnglish.innerText = randomQuestionEnglish.English;
+    buttonEnglish.setAttribute("onclick", "checkMatch(this);");
+
+    tdRadical.appendChild(buttonRadical);
+    rowRadicals.appendChild(tdRadical);
+
+    tdEnglish.appendChild(buttonEnglish);
+    rowEnglish.appendChild(tdEnglish);
+
+    counter++;
   }
 }
+
 
 function checkMatch(element) {
   if (
@@ -146,8 +157,6 @@ function checkMatch(element) {
   }
 }
 
-populateTables(1);
-
 function playPronunciation(element) {
   const audioToggle = document.getElementById("audio-toggle");
   if (audioToggle.checked) {
@@ -186,3 +195,12 @@ function toggleAudioTracks(element) {
     audioTrack1.checked = false;
   }
 }
+
+function displayQuiz(){
+  let urlPath = window.location.pathname;
+  let QuizNo = urlPath.match(/quiz_(\d+)/)[1];
+  populateTables(QuizNo)
+  
+}
+
+displayQuiz();
